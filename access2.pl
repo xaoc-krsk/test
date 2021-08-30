@@ -6,6 +6,8 @@ use strict;
 system "scp scpuser\@192.168.0.5:/online/control/access/access_fiz.csv /online/access/access_fiz.csv > /dev/null 2>&1";
 system "scp scpuser\@192.168.0.5:/online/control/access/access_ur.csv /online/access/access_ur.csv > /dev/null 2>&1";
 system "scp scpuser\@192.168.0.5:/online/control/access/iptv.conf /online/access/iptv.conf > /dev/null 2>&1";
+
+
 #system "scp scpuser\@192.168.0.5:/online/control/access/access_fiz.csv /online/access/access_fiz.csv";
 #system "scp scpuser\@192.168.0.5:/online/control/access/access_ur.csv /online/access/access_ur.csv";
 #system "scp scpuser\@192.168.0.5:/online/control/access/iptv.conf /online/access/iptv.conf";
